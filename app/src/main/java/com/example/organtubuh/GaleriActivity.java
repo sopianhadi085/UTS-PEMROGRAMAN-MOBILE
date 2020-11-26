@@ -77,7 +77,7 @@ public class GaleriActivity extends AppCompatActivity {
     private void organTerakhir() {
         int posAkhir = organs.size() - 1;
         if (indeksTampil == posAkhir) {
-            Toast.makeText(this,"Sudah di posisi terakhir",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Sudah di posisi_terakhir",Toast.LENGTH_SHORT).show();
             return;
         } else {
             indeksTampil = posAkhir;
